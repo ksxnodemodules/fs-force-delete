@@ -1,0 +1,32 @@
+
+{
+	"name": "fs-force-delete",
+	"description": "Just provide a path to delete everything inside",
+	"version": "0.0.0",
+	"author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+	"contributors": [
+		"Hoàng Văn Khải <hvksmr1996@gmail.com>"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ksxnodemodules/fs-force-delete.git"
+	},
+	"engines": {
+		"node": ">=6.0.0"
+	},
+	"dependencies": {
+		"fs-one-promise-queue": ">=1.0.0 <2.0.0",
+		"try-promise": ">=1.0.0 <2.0.0",
+		"fs-force-utils": "ksxnodemodules/fs-force-utils#v0.0.0"
+	},
+	"main": "index.js",
+	"keywords": [
+		"force-delete",
+		"recursive-delete"
+	],
+	"bugs": {
+		"url": "https://github.com/ksxnodemodules/fs-force-delete/issues"
+	},
+	"homepage": "https://github.com/ksxnodemodules/fs-force-delete#readme"
+}
