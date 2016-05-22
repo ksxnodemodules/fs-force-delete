@@ -64,8 +64,8 @@
 		addPromise((resolve) => __rm(entry, (...errinf) => resolve(errinf), onaction))
 			.onfinish((errinf) => onfinish(...errinf));
 
-	var rm = module.exports = (entry, onfinish = _throwif, onaction = _donothing) => _rm(resolvePath(entry), onfinish, onaction);
+	var __ = module.exports = (entry, onfinish = _throwif, onaction = _donothing) => _rm(resolvePath(entry), onfinish, onaction);
 
-	rm.withoutPromise = __rm;
+	__.withoutPromise = __rm;
 
 })(module);
